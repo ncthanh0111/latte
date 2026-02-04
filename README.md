@@ -1,13 +1,13 @@
-# LATTE - Playwright Automation Framework
+# latte - Playwright Automation Framework
 
 ## Overview
-**LATTE** is a scalable end-to-end automation framework developed for the DemoBlaze web application. Built with **Playwright** and **TypeScript**, this framework showcases a professional approach to hybrid testing, covering both UI and API layers with a focus on maintainability and clear execution reporting.
+**latte** is a scalable end-to-end automation framework developed for the DemoBlaze web application. Built with **Playwright** and **TypeScript**, this framework showcases a professional approach to hybrid testing, covering both UI and API layers with a focus on maintainability and clear execution reporting.
 
 ## Project Structure
 The framework follows a modular folder hierarchy to ensure a clean separation of concerns:
 
 ```text
-LATTE/
+latte/
 ├── .github/workflows/   # CI/CD pipeline configurations
 ├── api-service/         # Logic for API request handling
 ├── config/              # Environment and global settings
