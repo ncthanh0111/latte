@@ -12,11 +12,11 @@ LATTE/
 ├── api-service/         # Logic for API request handling
 ├── config/              # Environment and global settings
 ├── pages/               # Page Object Model (POM) implementations
-│   └── modules/         # Reusable UI components (Navbar, Modals)
+│   └── modules/         # Reusable UI components (Navigation Bar,...)
 ├── tests/               # Test suites
 │   ├── api/             # Functional API tests
 │   │   └── testData/    # API-specific datasets
-│   └── ui/              # End-to-end UI journey tests
+│   └── ui/              # End-to-end UI tests
 ├── utils/               # Common utility and helper functions
 ├── .gitignore           # Git exclusion rules
 ├── package.json         # Project dependencies and scripts
@@ -51,7 +51,7 @@ LATTE/
     ```
 
 ### Execution
-* **Run all tests:** `npx playwright test`
+* **Run all tests:** `npm run test`
 * **Run UI tests:** `npm run test:ui`
 * **Run API tests:** `npm run test:api`
 
