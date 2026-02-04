@@ -5,7 +5,7 @@ import getAllProductsResponseSchema from './testData/schemas/getAllProductsRespo
 test.describe('API Tests', () => {
     const baseUrl = 'https://api.demoblaze.com';
 
-    test('GET /entries - should return list of products successfully', async ({ request }) => {
+    test('GET /entries - should return list of products successfully', {tag: ['@smoke']}, async ({ request }) => {
         // API Action: Send GET request to /entries
         const response = await request.get(`${baseUrl}/entries`);
 

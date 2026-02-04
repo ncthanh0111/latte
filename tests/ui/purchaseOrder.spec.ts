@@ -22,7 +22,7 @@ test.describe('Purchase Order Tests', () => {
         expect(await homePage.navigationBar.isMenuItemDisplayed(`Welcome ${baseConfig.userAccount.username}`)).toBeTruthy();
     });
 
-    test('User can place order successfully', async ({ page }) => {
+    test('User can place order successfully', {tag: ['@smoke']}, async ({ page }) => {
         // Home Page: Capture product info and navigate to details
         const { title, price } = await homePage.getProductInfomationByIndex(0);
         await homePage.clickOnProductByIndex(0);

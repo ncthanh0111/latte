@@ -11,7 +11,7 @@ test.describe('Login Tests', () => {
         expect(await homePage.is_loaded()).toBeTruthy();
     });
 
-    test('User can login with valid credentials successfully', async ({ page }) => {
+    test('User can login with valid credentials successfully', {tag: ['@smoke']}, async ({ page }) => {
         // Prepare test data from configuration
         const { username, password } = baseConfig.userAccount;
         

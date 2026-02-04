@@ -60,7 +60,8 @@ The framework generates detailed execution reports to facilitate debugging and q
 * **HTML Report:** `npx playwright show-report`
 
 ## Future Roadmap
-To further enhance the testing ecosystem, the framework is designed for future integration with **Appium**. This will enable native mobile application testing while sharing existing utilities and API helpers across platforms.
+**Performance:** Integrate load testing using k6 or Playwright timing.
+**Mobile:** Expand to native app testing via Appium integration.
 
 ---
 **Author:** Nguyen Chi Thanh
