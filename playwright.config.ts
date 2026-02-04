@@ -47,21 +47,16 @@ export default defineConfig({
     },
 
     {
-      name: 'webkit',
-      testDir: './tests/ui',
-      use: { ...devices['Desktop Safari'] },
-    },
-
-    {
       name: 'api',
       testDir: './tests/api'
     },
 
     /* Test against mobile viewports. */
-    // {
-    //   name: 'Mobile Chrome',
-    //   use: { ...devices['Pixel 5'] },
-    // },
+    {
+      name: 'Mobile Chrome',
+      testDir: './tests/ui',
+      use: { ...devices['Pixel 5'] },
+    },
     // {
     //   name: 'Mobile Safari',
     //   use: { ...devices['iPhone 12'] },
