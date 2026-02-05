@@ -60,8 +60,8 @@ The framework generates detailed execution reports to facilitate debugging and q
 * **HTML Report:** `npx playwright show-report`
 
 ## Future Roadmap
-**Performance:** Integrate load testing using k6 or Playwright timing.
-**Mobile:** Expand to native app testing via Appium integration.
+* **Performance:** Integrate load testing using k6 or Playwright timing.
+* **Mobile:** Expand to native app testing via Appium integration.
 
 ---
 **Author:** Nguyen Chi Thanh
